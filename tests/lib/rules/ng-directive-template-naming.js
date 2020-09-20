@@ -23,11 +23,7 @@ ruleTester.run('ng-directive-template-naming', rule, {
                 '\n' +
                 '})();\n',
             errors
-        }/*,
-        {
-            code: 'yup.someOtherCommand()',
-            errors,
-        },*/
+        }
     ],
     invalid: [
         {
